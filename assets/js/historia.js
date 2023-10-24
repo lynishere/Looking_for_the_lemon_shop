@@ -1,4 +1,4 @@
 function redirect()
 {
-window.location.href="./espera.html";
+window.location.href="./Espera.html";
 }

@@ -1,4 +1,4 @@
 function redirect()
 {
-window.location.href="./Historia.html";
+window.location.href="./assets/pages/Historia.html";
 }
