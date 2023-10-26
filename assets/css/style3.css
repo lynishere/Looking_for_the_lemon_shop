@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 /*Botones superiores*/
-
    #botonComic{
        height: 35px;
        width: 45px;  
@@ -16,7 +15,7 @@
    #ImgPerfilch{
     height: 53px;
    }
-   #btn_mas{
+   #btn_mas{ /* boton para abrir el popup */
     height: 2cm;
     width: 2cm;
     border-radius: 100%;
@@ -137,11 +136,11 @@ p{
     width: 100px;
     margin-top: 6%;
 }
-.titulo1{
+.titulo1{ 
   font-size: 23px;
   font-family:'Caprasimo' ;
 }
-.popup{
+.popup{/* estilo del popup de como jugar */
   display: none;
   position: fixed;
     background-color:rgba(248, 246, 246, 0.637);
@@ -151,9 +150,8 @@ p{
     left: 0;
     width: 100%;
     height: 100%;
-
 }
-.Popup-contenido{
+.Popup-contenido{ /* estilo del contenido del popup de como jugar */
   background-color: white;
 position: absolute;
      top: 50%;
@@ -172,7 +170,7 @@ position: absolute;
   transition: transform 1s;
   transform: translate(-50%, -50%);
 }
-.btnclose{
+.btnclose{ /* boton para cerrar el popup de como jugar*/
   position: absolute;
     top: 10px;
     right: 10px;
@@ -183,12 +181,14 @@ position: absolute;
    border-bottom: 100%;
 }
 /* botones inferiores*/
+/* div boton play*/
 .botonp{
   margin-top: 25%;
 margin-left: 70%; 
 margin-right:10% ; 
 color: white;
 }
+/* boton play*/
 .play{
   height: 60px;
   width: 150px;
@@ -199,15 +199,108 @@ color: white;
   border-color: white;
   border-style: groove;
 }
-
+/* botones inferiores*/
  a{
   color: white;
   text-decoration: none;
  }
-@media (width: 720px) {
-  #botonplay{
-    height: 5px;
-    width: 5px;
-    background-color: #FAC656;
-}
+
+/* -------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------------*/
+/* CSS general aquí */
+
+@media (max-width: 720px) {
+  /* Estilos para pantallas de celular */
+
+  /* Ajusta los tamaños de fuente y los tamaños de botones según sea necesario */
+  #botonComic {
+      height: 30px;
+      width: 40px;
+  }
+  #imagenweb {
+      height: 40px;
+      width: 40px;
+  }
+  #ImgPerfilch {
+    height: 30px;
+    width: 40px;
+  }
+  #btn_mas {
+      height: 40px;
+      width: 40px;
+      font-size: 25px;
+  }
+  #btnperfil {
+      height: 20px;
+      width: 30px;
+  }
+  .btnhistoria {
+    height: 40px;
+    width: 40px;
+      font-size: 40px;
+      align-items: center;
+  }
+  .btnhis {
+    font-size: 25px;
+  }
+
+  /* Ajusta el diseño de los botones superiores */
+  #botones {
+      flex-direction: column;
+      align-items: right;
+      margin-left: 50%;
+  }
+  #hijo {
+      margin: 5px 0;
+  }
+  #hijo1 {
+      margin: 5px 0;
+  }
+  #hijo2 {
+      margin: 5px 0;
+  }
+  #hijo3 {
+      margin: 5px 0;
+  }
+
+  /* Ajusta el diseño de la ventana emergente del perfil del personaje */
+  .Popup {
+      width: 80%;
+  }
+
+  /* Ajusta el diseño del botón para cerrar el popup */
+  .close {
+      top: 5px;
+      right: 5px;
+  }
+
+  /* Ajusta el diseño del título */
+  .Pp {
+      font-size: 20px;
+  }
+
+  /* Ajusta el diseño del texto */
+  p {
+      font-size: 14px;
+  }
+
+  #imgdk {
+      height: 100px;
+      width: 80px;
+      margin-top: 9%;
+  }
+
+  .titulo1 {
+      font-size: 15px;
+  }
+
+  /* Ajusta el diseño del popup de cómo jugar */
+  .popup {
+      padding: 3px;
+  }
+.botonp{
+  margin-top: 45%;
+margin-left: 50%;
+font-size: 22px;
+  }
 }

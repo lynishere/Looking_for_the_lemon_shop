@@ -50,17 +50,18 @@ transition: all .3s;
             position: relative;
         }
         .titulo{
-            margin-top: 20%;
+            margin-top: 10%;
             margin-bottom: 1%;
             margin-left: 4%;
             margin-right: 3%;
-        font-size: 28px;
+        font-size: 26px;
         }
         .subtitulo{
             text-align: center;
-            font-size: 30px;
+            font-size: 25px;
         }
         button{
+            font-family: monospace;
             font-size: 35px;
             font-style: bold;
             padding: 10px 40px;
