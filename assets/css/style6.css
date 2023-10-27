@@ -1,0 +1,23 @@
+body{
+    background:darkgrey;
+}
+.contenedor-textos{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.textos{
+padding: 10px 10px 10px 10px;
+}
+.titulo{
+    font-family:'Caprasimo' ;
+    color: coral;
+    font-size: 40px;
+}
+.subtitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.texto{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
