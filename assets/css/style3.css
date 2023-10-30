@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-image: url(../img/Esenario.png);
+}
 /*Botones superiores*/
    #botonComic{
        height: 35px;
@@ -214,33 +217,36 @@ color: white;
 
   /* Ajusta los tamaños de fuente y los tamaños de botones según sea necesario */
   #botonComic {
-      height: 30px;
-      width: 40px;
+
+      height: 35px;
+      width: 45px;
   }
   #imagenweb {
-      height: 40px;
-      width: 40px;
+
+      height: 60px;
+      width: 60px;
   }
   #ImgPerfilch {
-    height: 30px;
-    width: 40px;
+
+    height: 40px;
+    width: 60px;
   }
   #btn_mas {
-      height: 40px;
-      width: 40px;
+    padding: 1px 1px; 
       font-size: 25px;
   }
   #btnperfil {
-      height: 20px;
-      width: 30px;
+
+      height: 40px;
+      width: 60px;
   }
   .btnhistoria {
-    height: 40px;
-    width: 40px;
-      font-size: 40px;
+    padding: 2px 2px; 
+    font-size: 25px;
       align-items: center;
   }
   .btnhis {
+
     font-size: 25px;
   }
 
@@ -248,24 +254,33 @@ color: white;
   #botones {
       flex-direction: column;
       align-items: right;
-      margin-left: 50%;
+      margin-left: 60%;
+      margin-right: 5%;
+      margin-top: 10%;
   }
   #hijo {
       margin: 5px 0;
+      margin-top: 10%;
   }
   #hijo1 {
       margin: 5px 0;
+      margin-top: 10%;
   }
   #hijo2 {
       margin: 5px 0;
+      margin-top: 10%;
   }
   #hijo3 {
       margin: 5px 0;
+      margin-top: 10%;
   }
 
   /* Ajusta el diseño de la ventana emergente del perfil del personaje */
   .Popup {
-      width: 80%;
+      width: 70%;
+  }
+  .Popup-contenido{
+    width: 70%;
   }
 
   /* Ajusta el diseño del botón para cerrar el popup */
@@ -276,22 +291,23 @@ color: white;
 
   /* Ajusta el diseño del título */
   .Pp {
-      font-size: 20px;
+      font-size: 30px;
   }
 
   /* Ajusta el diseño del texto */
   p {
-      font-size: 14px;
+      font-size: 18px;
+      text-align: left;
   }
 
   #imgdk {
       height: 100px;
       width: 80px;
-      margin-top: 9%;
+      margin-top: 100%;
   }
 
   .titulo1 {
-      font-size: 15px;
+      font-size: 25px;
   }
 
   /* Ajusta el diseño del popup de cómo jugar */
@@ -299,8 +315,8 @@ color: white;
       padding: 3px;
   }
 .botonp{
-  margin-top: 45%;
+  margin-top: 25%;
 margin-left: 50%;
-font-size: 22px;
+font-size: 23px;
   }
 }

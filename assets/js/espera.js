@@ -13,7 +13,7 @@ popupcontainer.addEventListener("click", (e) => {
         popupcontainer.style.display = "none";
     }
 });
-/*----- PARTE DEL POPUP DEL  */
+/*----- PARTE DEL POPUP DEL MODO DE JUEGO  */
 let abrir = document.getElementById("btn_mas");
 let cerrar= document.getElementById("btnclosee");
 let contenido= document.getElementById("popupContainer");

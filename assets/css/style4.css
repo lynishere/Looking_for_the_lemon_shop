@@ -1,8 +1,9 @@
 /* ESTILO DEL BODY */
 body{
-    background: rgb(250, 251, 250);
+    background-image: url("../img/Esenario.png");
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: WHITE;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main {
     display: flex;
@@ -114,9 +115,13 @@ padding: 10px 15px;
     }
     /* -------------------------------------------------------------------------------------*/
 /* -------------------------------------------------------------------------------------*/
-/* Media query para pantallas más pequeñas (menos de 768px de ancho) */
 /* Media query para pantallas más pequeñas (menos de 720px de ancho) */
 @media (max-width: 720px) {
+    body{
+        background-image: url("../img/Esenario.png");
+        background-size: 100% 100%;
+
+    }
     main {
         display: flex;
         align-items: center;
@@ -125,7 +130,7 @@ padding: 10px 15px;
     }
 
     h1 {
-        font-size: 20px; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+        font-size: 23px; /* Ajusta el tamaño de fuente en pantallas pequeñas */
     }
 
     h2 {
@@ -140,15 +145,15 @@ padding: 10px 15px;
 
     .seccion1 {
         margin: 10px;
-        margin-top: 10px;
-        padding: 5px;
+        margin-top: 1Px;
+        padding: 3px;
         order: 2; /* Cambia el orden de visualización para que sea el segundo elemento */
     }
 
     .button {
-        height: 60px;
-        width: 60px;
-        font-size: 30px;
+        height: 65px;
+        width: 65px;
+        font-size: 10px;
         color: rgb(36, 70, 8);
         font-weight: bold;
         background: rgba(248, 216, 149, 0.576);
@@ -162,18 +167,19 @@ padding: 10px 15px;
         padding: 5px;
         order: 1; /* Cambia el orden de visualización para que sea el primer elemento */
         width: 100%;
-        height: 190px;
+        height: 215px;
+        padding: 2px 2px; 
     }
 
     .estadistica {
         text-align: center;
-        height: 30px;
+        height: 35px;
         width: 100%;
         margin-bottom: 2px;
     }
 
     .estadistica1 {
-        height: 30px;
+        height: 35px;
         width: 100%;
         margin-bottom: 2px;
     }
@@ -192,25 +198,24 @@ padding: 10px 15px;
     }
 
     .again {
-        font-size: 18px;
+        font-size: 20px;
         border-radius: 100%;
         border-color: #fff;
-        border-width: 2px;
+        border-width: 1px;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(180deg, #fae98c 0%, #f8924d 100%);
         color: #fff;
-        padding: 6px 6px 6px 6px;
+        padding: 7px 7px 7px 7px;
     }
 
     .next {
-        font-size: 14px;
+        border-width: 1px;
+        font-size: 15px;
         border-radius: 100%;
         border-color: #fff;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(180deg, #cdfc75 0%, #56a830 100%);
         color: #fff;
-        padding: 6px 6px 6px 6px;
+        padding: 7px 7px 7px 7px;
     }
 }

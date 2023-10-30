@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://previews.123rf.com/images/vectorshowstudio/vectorshowstudio1610/vectorshowstudio161000785/64587751-setas-ilustraci%C3%B3n-vectorial-patr%C3%B3n-transparente-diferentes-tipos-de-hongos-aislados-sobre-fondo.jpg");
+}
+.texto{align-items: center;
+    display: flex;
+    margin-top: 4%;
+    
+    padding: 10px 10px 10px 10px;
+
+}
+#despedida{
+    margin-top: 4%;
+ font-size: 35px;
+ text-align: center;
+ font-family: 'Caprasimo', cursive;
+ color:#EBC43D;
+ line-break:auto;
+ background: -webkit-linear-gradient(yellow,rgb(255, 145, 0));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+@media(max-width: 720px) {
+    
+}

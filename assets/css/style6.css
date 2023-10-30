@@ -1,9 +1,10 @@
 body{
-    background:darkgrey;
+    background:lightgoldenrodyellow;
 }
+/*-------------------estilo de los texto*/
 .contenedor-textos{
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 1%;
+    margin-top: 2%;
 }
 .textos{
 padding: 10px 10px 10px 10px;
@@ -12,12 +13,81 @@ padding: 10px 10px 10px 10px;
     font-family:'Caprasimo' ;
     color: coral;
     font-size: 40px;
+    text-align: center;
 }
 .subtitulo{
+    margin-left: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 27px;
+}
+li{
+    margin-left: 5%;
 }
 .texto{
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    margin-left: 5%;
+}
+/*-------------------estilo de los botones*/
+.botones-superiores{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-left: 90%;
+}
+.btnplay{
+    background: linear-gradient(180deg, #fae98c 0%, #f2f84d 100%);
+    border-radius: 100%;
+    border-style: 1px;
+    border-color: white;
+    color: white;
+    font-family:'Caprasimo' ;
+    height: 40px;
+    width: 40px;
+    padding: 1px 1px 1px 1px;
+}
+.btnstop{
+    background: linear-gradient(180deg, #fae98c 0%, #f2f84d 100%);
+    border-radius: 100%;
+    border-style: 1px;
+    border-color: white;
+    color: white;
+    font-family:'Caprasimo' ;
+    height: 40px;
+    width: 40px;
+    padding: 1px 1px 1px 1px;
+}
+/*botones inferiores*/
+.botones {
+    margin-top: 5%;
+    display: flex; /* Usamos flexbox para alinear horizontalmente los botones */
+    justify-content: center; /* Alineamos los botones horizontalmente al centro */
+}
+
+.boton {
+    margin-left: 10px; /* Agregamos un espacio entre los botones */
+    text-align: center; /* Centramos el texto de los botones */
+}
+
+.again {
+    font-size: 24px;
+    border-radius: 100%;
+    border: 2px solid #fff; /* Cambiamos border-style y border-color */
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #fae98c 0%, #f2f84d 100%);
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+}
+.home {
+    font-size: 22px;
+    border-radius: 100%;
+    border: 2px solid #fff; /* Cambiamos border-style y border-color */
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #fae98c 0%, #f2f84d 100%);
+    color: #fff;
+    padding: 15px 15px 15px 15px;
 }

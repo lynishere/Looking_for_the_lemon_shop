@@ -17,7 +17,6 @@ let rightguess = document.getElementById("puntaje1");
 let seetime = document.getElementById("tiempo");
 let score = document.getElementById("puntaje"); // variable que llama al id = "puntaje"
 
-let loseau = new Audio('../sounds/lose.mp3');
 let worngau = new Audio('../sounds/wrong.wav');
 let rightau = new Audio('../sounds/right.mp3');
 let clickau = new Audio('../sounds/click.wav');
@@ -35,7 +34,6 @@ function Tiempo(){ //utilizamos sen interval que hace un retroceso
      if(Timer==0){ //si lelga a0 se detiene el temporisador
           clearInterval(regresivetime);
           desabledtrajeta(numeros);
- loseau.play();
         }
     }, 1000, Timer);
 }
@@ -104,7 +102,7 @@ if (pares>=8){ // aqui vemos si el puntaje obtenido es igual o mayor al puntaje 
     clearInterval(regresivetime);
     rightguess.innerHTML=` ${successes} :)`;
     mostmovimiento.innerHTML=`Movimientos: ${movimiento} ;)`;
-    seetime.innerHTML=`muy bien, te llevo ${ tiemerinicial-Timer} seg `;
+    seetime.innerHTML=`bien,te llevo ${ tiemerinicial-Timer}seg `;
 }
 }
 //funcionalidad de los botones
@@ -127,6 +125,3 @@ function rediriguir(){
     window.location.href = "./lose.html"; 
  }
 }
-//  en esta parte se supone que tiene que hacer el botn para ir a otra pagina que te muestre dos casoso 
-//posible: si supero el puntaje se muestre un html que diga felicidades y de la pista, el otro caso que 
-//cuando presione el boton y no supero el puntaje entonces muestre un html que muestre que perdio 

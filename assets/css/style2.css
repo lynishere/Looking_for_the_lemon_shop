@@ -42,7 +42,7 @@
             text-align: left;
             margin-left: 1%;
             margin-top: 10%;
-            font-size: 20px;
+            font-size: 15px;
         }
         #boton{
             display: flex;
@@ -54,7 +54,7 @@
         border-radius:1000%;
         border-color:gold;
         border-width: 1px;
-        padding: 5px 5px;  
+        padding: 3px 3px;  
         border-width: 1px;
         }
         #item1{
@@ -65,6 +65,7 @@
         }
         h4{
             color:#151614;
-            font-family:serif;
+            font-size: 15PX;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
     }

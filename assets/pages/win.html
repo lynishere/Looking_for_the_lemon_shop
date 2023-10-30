@@ -14,14 +14,35 @@
         <link rel="stylesheet" href="../css/style5.css">
 </head>
 <body>
+    
+    <div class="botones-superiores">
+        <audio id="miCancion" src="../sounds/win.mp3" preload="auto" ></audio>
+        <button class="btnplay" id="bntReproducir" onclick="play()"> > </button>
+        <button class="btnstop" id="btnDetener" onclick="stop()">||</button>
+    </div>
+
+<div class="principal">
     <div class="contenedor-textos">
         <dl class="textos">
-            <dt><h1 class="titulo">Felicidades a superado el puntaje</h1></dt>
+            <dt><h1 class="titulo">¡Felicidades a superado el puntaje!</h1></dt>
             <dd> <h4 class="subtitulo">La pista es:</h4></dd>
             <ul>
-                <li> <h5 class="texto">toma el gato bus  numero 34</h5></li>
+                <li> <h5 class="texto">Toma el gato bus  numero 34</h5></li>
             </ul>
         </dl>
-    </div>   
+    </div> 
+    <div class="botones">
+        <div class="boton">
+         <button type="submit" class="again" id="denuevo">&#x21BA;</button> <!--boton para volver a jugar-->
+        </div>
+       <div class="boton">
+         <button type="submit" class="next" id="siguiente">&#10148;</button><!--boton para pasar a la sihuiente pagina-->
+       </div>
+       <div class="boton">
+        <button  type="submit" class="home" id="casa">&#9733;</button><!--boton para volver a la sala de espera-->
+       </div>
+       </div>
+</div>  
+<script src="../js/win.js"></script>
 </body>
 </html>
