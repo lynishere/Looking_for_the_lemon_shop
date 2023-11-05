@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(../img/Esenario.png);
+  background: url(../img/escenario3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*Botones superiores*/
    #botonComic{
@@ -186,15 +188,15 @@ position: absolute;
 /* botones inferiores*/
 /* div boton play*/
 .botonp{
-  margin-top: 25%;
+  margin-top: 30%;
 margin-left: 70%; 
 margin-right:10% ; 
 color: white;
 }
 /* boton play*/
 .play{
-  height: 60px;
-  width: 150px;
+  height: 70px;
+  width: 160px;
   font-size: 23px;
   font-family: fantasy;
   background: linear-gradient(180deg, #fae98c 0%, #f8924d 100%);
@@ -212,7 +214,7 @@ color: white;
 /* -------------------------------------------------------------------------------------*/
 /* CSS general aquí */
 
-@media (max-width: 720px) {
+@media(max-width: 720px) {
   /* Estilos para pantallas de celular */
 
   /* Ajusta los tamaños de fuente y los tamaños de botones según sea necesario */
@@ -318,5 +320,6 @@ color: white;
   margin-top: 25%;
 margin-left: 50%;
 font-size: 23px;
+padding: 2px 2px 2px 2px;
   }
 }

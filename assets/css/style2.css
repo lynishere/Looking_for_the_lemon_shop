@@ -32,7 +32,7 @@
         height: 3cm;
         background-color: #FFEFC4;
     }
-    @media (max-width:720px) {
+    @media (max-width: 720px)  {
         body{
             background-image:url("../img/fondo.png");
             background-size: cover; 

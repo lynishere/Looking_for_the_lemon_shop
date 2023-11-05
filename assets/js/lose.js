@@ -26,5 +26,5 @@ btnhome.addEventListener("click", () => {
   casa();
 });
     function casa (){
-      window.location.href="./espera.html";
+      window.location.href="./Espera.html";
     }

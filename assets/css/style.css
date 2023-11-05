@@ -1,6 +1,11 @@
 .cuerpo{
     outline-style: none;
     }
+    body{
+        background: url(../img/escenarioprincipal.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .titulo{
         text-align: center;
         font-family: 'Caprasimo', cursive;
@@ -11,7 +16,7 @@
         margin-top: 4%;
         margin-left: 25%;
         margin-right: 25%;
-        background: -webkit-linear-gradient(yellow,rgb(255, 145, 0));
+        background: -webkit-linear-gradient(rgb(231, 102, 42),rgb(241, 51, 37));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         color: tomato;
@@ -19,7 +24,7 @@
     .subtitulo{
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color:#c2c1be;
+        color:#646463;
         font-size: 25px;
     }
     button{
@@ -44,8 +49,10 @@ transition: all .3s;
         background: linear-gradient(180deg, #f8d75e 0%, #ff9900 100%);
         transition: all .3s;
     }
-    @media (max-width:720px) {
+    @media (max-width: 720px)  {
         body{
+            background-image: url(../img/escenarioprincipal.png);
+          background-size: 2000px 2000px 2000px 102000px;
             text-align: center;
             position: relative;
         }

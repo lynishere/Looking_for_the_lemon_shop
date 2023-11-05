@@ -1,5 +1,5 @@
 body{
-    background:lightgoldenrodyellow;
+    background:url(../img/Winfondo.png)
 }
 /*-------------------estilo de los texto*/
 .contenedor-textos{
@@ -11,17 +11,17 @@ padding: 10px 10px 10px 10px;
 }
 .titulo{
     font-family:'Caprasimo' ;
-    color: coral;
+    color: rgb(255, 223, 80);
     font-size: 40px;
     text-align: center;
 }
 .subtitulo{
-    margin-left: 5%;
+    margin-left:35%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 27px;
+    font-size: 35px;
 }
 li{
-    margin-left: 5%;
+    margin-left: 40%;
 }
 .texto{
     font-size: 26px;
@@ -35,7 +35,8 @@ ul{
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    margin-left: 90%;
+    margin-left: 80%;
+    display: flex;
 }
 .btnplay{
     background: linear-gradient(180deg, #fae98c 0%, #f2f84d 100%);
@@ -90,4 +91,21 @@ ul{
     background: linear-gradient(180deg, #fae98c 0%, #f2f84d 100%);
     color: #fff;
     padding: 15px 15px 15px 15px;
+}
+@media (max-width: 720px){
+    body{
+        background: url(../img/loseh.png);
+      background-size: cover;
+    }
+    .textos{
+        padding: 5px 5px 5px 5px;
+        } 
+        .btnplay{
+            margin-left: 5%;
+            padding: 5px 5px 5px 5px ;
+        }
+        .btnstop{
+            margin-left: 2%;
+            padding: 5px 5px 5px 5px ;
+        }
 }
