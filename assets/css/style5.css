@@ -7,7 +7,7 @@ body{
 .contenedor-textos{
     margin-left: 1%;
     margin-top: 1%;
-    color: rgb(61, 37, 67);
+    color: rgb(13, 13, 14);
 }
 .textos{
 padding: 10px 10px 10px 10px;
@@ -15,7 +15,7 @@ padding: 10px 10px 10px 10px;
 .titulo{
     font-family:'Caprasimo' ;
     color: rgb(255, 223, 80);
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
 }
 .subtitulo{
@@ -34,6 +34,8 @@ ul{
     margin-left: 5%;
 }
 .botones-superiores{
+    margin-top: 2%;
+    margin-bottom: 5%;
     display: flex; /* Usamos flexbox para alinear horizontalmente los botones */
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -111,6 +113,7 @@ ul{
     body{
         background: url(../img/Winh.png);
       background-size: cover;
+      background-repeat: no-repeat;
     }
     .textos{
         padding: 5px 5px 5px 5px;

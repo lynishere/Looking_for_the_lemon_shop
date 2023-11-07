@@ -1,5 +1,7 @@
 body{
-    background:url(../img/Winfondo.png)
+    background:url(../img/LoseFondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /*-------------------estilo de los texto*/
 .contenedor-textos{
@@ -32,6 +34,8 @@ ul{
 }
 /*-------------------estilo de los botones*/
 .botones-superiores{
+    margin-top: 2%;
+    margin-bottom: 5%;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
@@ -68,6 +72,7 @@ ul{
 }
 
 .boton {
+    margin-top: 5%;
     margin-left: 10px; /* Agregamos un espacio entre los botones */
     text-align: center; /* Centramos el texto de los botones */
 }
@@ -96,15 +101,18 @@ ul{
     body{
         background: url(../img/loseh.png);
       background-size: cover;
+      background-repeat: no-repeat;
     }
     .textos{
         padding: 5px 5px 5px 5px;
         } 
         .btnplay{
+            margin-top: 5%;
             margin-left: 5%;
             padding: 5px 5px 5px 5px ;
         }
         .btnstop{
+            margin-top: 5%;
             margin-left: 2%;
             padding: 5px 5px 5px 5px ;
         }

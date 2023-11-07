@@ -25,7 +25,7 @@ let numeros = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10];
 
 let score1 = [8]; // Array del puntaje a superar
 // Generamos una función que ordene aleatoriamente utilizando el método sort()
-numeros = numeros.sort(() => Math.random() - 0.3);
+numeros = numeros.sort(() => Math.random() - 0.5);
 
 // Función para el temporizador
 function Tiempo() {
@@ -71,7 +71,7 @@ function tapa(id) {
     // Mostrar la segunda carta
     trajeta2 = document.getElementById(id);
     resultado2 = numeros[id];
-    trajeta2.innerHTML = `<img src="../img/${resultado2}.png" alt="img1">`;
+    trajeta2.innerHTML = `<img src="../img/${resultado2}.png" alt="img2">`;
     clickau.play();
     trajeta2.disabled = true;
     trajetassintapa++;

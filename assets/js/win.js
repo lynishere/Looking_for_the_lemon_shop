@@ -27,7 +27,7 @@ btnsiguiente.addEventListener("click",()=>{
 });
 function rediriguir(){
 
-    window.location.href = "./final.html"; 
+    window.location.href = "./Camino.html"; 
 
 }
 btncasa.addEventListener("click",()=>{
