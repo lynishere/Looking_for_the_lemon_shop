@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background: url(../img/escenario3.png);
+  background: url(../img/Espera.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -216,7 +216,11 @@ color: white;
 
 @media(max-width: 720px) {
   /* Estilos para pantallas de celular */
-
+body{
+  background: url(../img/EsperaH.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   /* Ajusta los tamaños de fuente y los tamaños de botones según sea necesario */
   #botonComic {
 
