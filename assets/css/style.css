@@ -58,7 +58,7 @@ transition: all .3s;
             position: relative;
         }
         .titulo{
-            margin-top: 10%;
+            margin-top: 15%;
             margin-bottom: 3%;
             margin-left: 4%;
             margin-right: 3%;
@@ -71,13 +71,13 @@ transition: all .3s;
         }
         button{
             font-family: monospace;
-            font-size: 35px;
+            font-size: 40px;
             font-style: bold;
-            padding: 10px 40px;
+            padding: 12px 42px;
             margin-left: 35%;
             margin-right: 43%;
             margin-top: 15%;
-            margin-bottom: 1%;
+            margin-bottom: 5%;
         position: relative;
         border-width: 1px;
         }
