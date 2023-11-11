@@ -53,7 +53,7 @@ transition: all .3s;
     @media (max-width: 720px)  {
         body{
             background-image: url(../img/inicioh.png);
-          background-size: 2000px 2000px 2000px 102000px;
+          background-size: auto;
             text-align: center;
             position: relative;
         }
