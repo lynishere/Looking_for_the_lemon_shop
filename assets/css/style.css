@@ -41,6 +41,7 @@
       border-width: 2px;
       padding: 10px 60px;  
     }
+
     .button{
 background: linear-gradient(180deg, #f5d523 0%, #f8924d 100%);
 transition: all .3s;
@@ -58,14 +59,15 @@ transition: all .3s;
         }
         .titulo{
             margin-top: 10%;
-            margin-bottom: 1%;
+            margin-bottom: 3%;
             margin-left: 4%;
             margin-right: 3%;
-        font-size: 26px;
+        font-size: 28px;
         }
         .subtitulo{
             text-align: center;
             font-size: 25px;
+            margin-bottom: 3%;
         }
         button{
             font-family: monospace;

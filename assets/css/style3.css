@@ -188,7 +188,7 @@ position: absolute;
 /* botones inferiores*/
 /* div boton play*/
 .botonp{
-  margin-top: 30%;
+  margin-top: 35%;
 margin-left: 70%; 
 margin-right:10% ; 
 color: white;
@@ -196,7 +196,7 @@ color: white;
 /* boton play*/
 .play{
   height: 70px;
-  width: 160px;
+  width: 165px;
   font-size: 23px;
   font-family: fantasy;
   background: linear-gradient(180deg, #fae98c 0%, #f8924d 100%);
