@@ -59,5 +59,24 @@ a{
     #despedida{
         font-size: 37px;
     }
-    
+   /*  ESTILO DE LOS BOTONES */
+.botones {
+    margin-top: 7%;
+    display: flex; /* Usamos flexbox para alinear horizontalmente los botones */
+    justify-content: center; /* Alineamos los botones horizontalmente al centro */
+}
+.boton {
+    margin-left: 10px; /* Agregamos un espacio entre los botones */
+    text-align: center; /* Centramos el texto de los botones */
+}
+.home {
+    font-size: 22px;
+    border-radius: 100%;
+    border: 2px solid #fff; /* Cambiamos border-style y border-color */
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #fae98c 0%, #f2f84d 100%);
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+} 
 }
