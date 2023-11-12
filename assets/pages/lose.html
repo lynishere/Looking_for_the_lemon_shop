@@ -14,31 +14,33 @@
         <link rel="stylesheet" href="../css/style6.css">
 </head>
 <body>
-    <div class="botones-superiores">
-        <audio id="miCancion" src="../sounds/lose.mp3" preload="auto" ></audio>
-        <button class="btnplay" id="bntReproducir" onclick="play()"> > </button>
-        <button class="btnstop" id="btnDetener" onclick="stop()">||</button>
+    <div class="Cuerpo">
+        <div class="botones-superiores">
+            <audio id="miCancion" src="../sounds/lose.mp3" preload="auto" ></audio>
+            <button class="btnplay" id="bntReproducir" onclick="play()"> > </button>
+            <button class="btnstop" id="btnDetener" onclick="stop()">||</button>
+        </div>
+    
+      <div class="principal">
+        <div class="contenedor-textos">
+            <dl class="textos">
+                <dt><h1 class="titulo">Lamentablemente no a superado el puntaje</h1></dt>
+                <dd> <h4 class="subtitulo">La pista es:</h4></dd>
+                <ul>
+                    <li> <h5 class="texto">NO HAY PISTA </h5></li>
+                </ul>
+            </dl>
+        </div>
+      </div>  
+      <div class="botones">
+        <div class="boton">
+         <button type="submit" class="again" id="denuevo">&#x21BA;</button> <!--boton para volver a jugar-->
+        </div>
+       <div class="boton">
+        <button  type="submit" class="home" id="casa" >&#9733;</button><!--boton para volver a la sala de espera-->
+       </div>
+       </div>
     </div>
-
-  <div class="principal">
-    <div class="contenedor-textos">
-        <dl class="textos">
-            <dt><h1 class="titulo">Lamentablemente no a superado el puntaje</h1></dt>
-            <dd> <h4 class="subtitulo">La pista es:</h4></dd>
-            <ul>
-                <li> <h5 class="texto">NO HAY PISTA </h5></li>
-            </ul>
-        </dl>
-    </div>
-  </div>  
-  <div class="botones">
-    <div class="boton">
-     <button type="submit" class="again" id="denuevo">&#x21BA;</button> <!--boton para volver a jugar-->
-    </div>
-   <div class="boton">
-    <button  type="submit" class="home" id="casa" >&#9733;</button><!--boton para volver a la sala de espera-->
-   </div>
-   </div>
    <script src="../js/lose.js"></script>
 </body>
 </html>

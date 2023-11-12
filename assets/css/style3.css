@@ -8,6 +8,11 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
+.Cuerpo{
+  width:100%;
+  text-align: center;
+  position: fixed;
+}
 /*Botones superiores*/
    #botonComic{
        height: 35px;
@@ -185,6 +190,10 @@ position: absolute;
     color: #ffffff;
    border-bottom: 100%;
 }
+#imga{
+width: 50%;
+height: auto;
+}
 /* botones inferiores*/
 /* div boton play*/
 .botonp{
@@ -219,7 +228,7 @@ color: white;
 body{
   background: url(../img/EsperaH.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
   /* Ajusta los tamaños de fuente y los tamaños de botones según sea necesario */
   #botonComic {
@@ -325,8 +334,8 @@ body{
       padding: 3px;
   }
 .botonp{
-  margin-top: 25%;
-  margin-bottom: 15%;
+  margin-top: 45%;
+  margin-bottom: 25%;
 margin-left: 54%;
 font-size: 23px;
 padding: 2px 2px 2px 2px;

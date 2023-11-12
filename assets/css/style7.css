@@ -2,8 +2,15 @@ body{
     background-image: url("../img/Finalfondo.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.texto{align-items: center;
+.Cuerpo{
+    width:100%;
+    text-align: center;
+    position: fixed;
+}
+.texto{
+    align-items: center;
     display: flex;
     margin-top: 4%;
     
@@ -11,7 +18,7 @@ body{
 
 }
 #despedida{
-    margin-top: 4%;
+    margin-top: 5%;
  font-size: 35px;
  text-align: center;
  font-family: 'Caprasimo', cursive;
@@ -54,14 +61,18 @@ a{
     body{
         background: url(../img/Finalh.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
     }
     #despedida{
         font-size: 37px;
+        margin-top: 8%;
+    }
+    img{
+        margin-top: 15%;
     }
    /*  ESTILO DE LOS BOTONES */
 .botones {
-    margin-top: 7%;
+    margin-top: 20%;
     display: flex; /* Usamos flexbox para alinear horizontalmente los botones */
     justify-content: center; /* Alineamos los botones horizontalmente al centro */
 }

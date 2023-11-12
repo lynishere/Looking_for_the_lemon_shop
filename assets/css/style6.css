@@ -2,6 +2,12 @@ body{
     background:url(../img/LoseFondo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Cuerpo{
+    width:100%;
+    text-align: center;
+    position: fixed;
 }
 /*-------------------estilo de los texto*/
 .contenedor-textos{
@@ -100,12 +106,30 @@ ul{
 @media (max-width: 720px){
     body{
         background: url(../img/loseh.png);
-      background-size: cover;
+      background-size: auto;
       background-repeat: no-repeat;
     }
     .textos{
         padding: 5px 5px 5px 5px;
         } 
+        .titulo{
+            font-size: 50px;
+        }
+        .subtitulo{
+            margin-left: 1%;
+            margin-top: 30%;
+        }
+        .texto{
+            margin-left: 1%; 
+        }
+        .contenedor-textos{
+            margin-left: 1%;
+            margin-top: 2%;
+        }
+ .boton{
+    margin-top: 30%;
+    margin-left: 1%;
+ }
         .btnplay{
             margin-top: 10%;
             margin-left: 5%;

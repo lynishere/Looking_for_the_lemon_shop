@@ -1,3 +1,14 @@
+body{
+    background-image:url("../img/fondo.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+.Cuerpo{
+    width:100%;
+    text-align: center;
+    position: fixed;
+}
 .historia{
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -5,14 +16,11 @@
     margin-left: 4cm;
     position:relative;
     }
-    body{
-       background-image:url("../img/fondo.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+
     h4{
     color:#41433f;
     font-family: monospace;
+    line-break: auto;
     }
     #boton{
         display: flex;
@@ -35,14 +43,14 @@
     @media (max-width: 720px)  {
         body{
             background-image:url("../img/fondo.png");
-            background-size: cover; 
+            background-size: auto;
             background-repeat:repeat;
         }
         .historia{
             text-align: left;
             margin-left: 1%;
             margin-top: 10%;
-            font-size: 15px;
+            font-size: 26px;
         }
         #boton{
             display: flex;
@@ -65,7 +73,7 @@
         }
         h4{
             color:#151614;
-            font-size: 15PX;
+            font-size: 100%;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
     }
