@@ -228,7 +228,6 @@ color: white;
 body{
   background: url(../img/EsperaH.png);
   background-repeat: no-repeat;
-  background-size: auto;
 }
   /* Ajusta los tamaños de fuente y los tamaños de botones según sea necesario */
   #botonComic {
@@ -271,26 +270,26 @@ body{
       align-items: right;
       margin-left: 64%;
       margin-right: 5%;
-      margin-top: 20%;
+      margin-top: 10%;
 
   }
   #hijo {
       margin: 5px ;
-      margin-top: 20%;
+      margin-top: 10%;
 
   }
   #hijo1 {
       margin: 5px ;
-      margin-top: 20%;
+      margin-top: 10%;
   }
   #hijo2 {
       margin: 5px ;
-      margin-top: 20%;
+      margin-top: 10%;
 
   }
   #hijo3 {
       margin: 5px ;
-      margin-top: 20%;
+      margin-top: 10%;
 
   }
 
@@ -334,7 +333,7 @@ body{
       padding: 3px;
   }
 .botonp{
-  margin-top: 35%;
+  margin-top: 25%;
   margin-bottom: 25%;
 margin-left: 54%;
 font-size: 23px;

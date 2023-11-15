@@ -109,34 +109,44 @@ ul{
       background-size: auto;
       background-repeat: no-repeat;
     }
+    .Cuerpo{
+        width: 90%;
+        height: 90%;
+    }
     .textos{
         padding: 5px 5px 5px 5px;
         } 
         .titulo{
-            font-size: 50px;
+            font-size: 38px;
+            margin-left: 5%;
+            margin-left: 5%;
         }
         .subtitulo{
             margin-left: 1%;
-            margin-top: 30%;
+            margin-top: 5%;
+            margin-bottom: 1%;
         }
         .texto{
-            margin-left: 1%; 
+            margin-left: 1%;
+            margin-bottom: 1%; 
         }
         .contenedor-textos{
             margin-left: 1%;
-            margin-top: 2%;
+            margin-top: 1%;
+            margin-bottom: 1%;
         }
  .boton{
-    margin-top: 30%;
-    margin-left: 1%;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-bottom: 1%;
  }
         .btnplay{
-            margin-top: 10%;
-            margin-left: 5%;
-            padding: 5px 5px 5px 5px ;
+            margin-top: 5%;
+            margin-left: 1%;
+            padding: 2px 2px 2px 2px ;
         }
         .btnstop{
-            margin-top:    10%;
+            margin-top:    1%;
             margin-left: 2%;
             padding: 5px 5px 5px 5px ;
         }

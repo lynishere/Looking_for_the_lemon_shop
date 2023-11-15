@@ -57,26 +57,25 @@ transition: all .3s;
     @media (max-width: 720px)  {
         body{
             background-image: url(../img/inicioh.png);
-            background-size: auto;
             background-repeat: no-repeat;
         }
         .titulo{   
-            margin-top: 38%;   
-        font-size: 27px;
+            margin-top: 18%;   
+        font-size: 24px;
         }
         .subtitulo{
             margin-top: 10%;
             text-align: center;
-            font-size: 28px;
-            margin-bottom: 3%;
+            font-size: 20px;
+            margin-bottom: 1%;
         }
         button{
             font-family: 'Caprasimo', cursive;
-            font-size: 40px;
+            font-size: 30px;
             font-style: bold;
             padding: 12px 42px;
             text-align: center;
-            margin-top: 20%;
+            margin-top: 15%;
             margin-bottom: 5%;
         position: relative;
         border-width: 1px;

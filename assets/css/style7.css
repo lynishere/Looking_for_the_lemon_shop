@@ -61,18 +61,26 @@ a{
     body{
         background: url(../img/Finalh.png);
         background-repeat: no-repeat;
-        background-size: auto;
+    }
+    .Cuerpo{
+        height: 90%;
+        width: 90%;
     }
     #despedida{
-        font-size: 37px;
-        margin-top: 8%;
+        font-size: 30px;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        color: #eb6e3d;
     }
     img{
-        margin-top: 15%;
+        margin-top: 8%;
+        width: 50%;
+        margin-left: 15%;
     }
    /*  ESTILO DE LOS BOTONES */
 .botones {
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex; /* Usamos flexbox para alinear horizontalmente los botones */
     justify-content: center; /* Alineamos los botones horizontalmente al centro */
 }
@@ -81,7 +89,7 @@ a{
     text-align: center; /* Centramos el texto de los botones */
 }
 .home {
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 100%;
     border: 2px solid #fff; /* Cambiamos border-style y border-color */
     align-items: center;

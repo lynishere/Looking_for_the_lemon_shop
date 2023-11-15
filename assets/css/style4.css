@@ -132,11 +132,11 @@ padding: 10px 15px;
         align-items: center;
         text-align: center;
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 5px;
     }
 
     h1 {
-        font-size: 23px; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+        font-size: 15px; /* Ajusta el tamaño de fuente en pantallas pequeñas */
     }
 
     h2 {
@@ -150,15 +150,17 @@ padding: 10px 15px;
     }
 
     .seccion1 {
-        margin: 10px;
-        margin-top: 5%;
-        padding: 3px;
+        margin: 1px;
+        margin-top: 1%;
+        padding: 2px;
         order: 2; /* Cambia el orden de visualización para que sea el segundo elemento */
+        margin-left: 1% ;
+        margin-right: 2%;
     }
 
     .button {
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         font-size: 10px;
         color: rgb(36, 70, 8);
         font-weight: bold;
@@ -169,25 +171,25 @@ padding: 10px 15px;
 
     .seccion2 {
         margin-top: 1px;
-        margin: 10px; /* Ajusta el margen en pantallas pequeñas */
+        margin: 5px; /* Ajusta el margen en pantallas pequeñas */
         padding: 5px;
         order: 1; /* Cambia el orden de visualización para que sea el primer elemento */
         width: 100%;
-        height: 20%;
+        height:15%;
         padding: 2px 2px; 
     }
 
     .estadistica {
         text-align: center;
-        height: 35px;
+        height: 34px;
         width: 100%;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
     }
 
     .estadistica1 {
-        height: 35px;
+        height: 34px;
         width: 100%;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
     }
 
     .botones {
@@ -201,27 +203,28 @@ padding: 10px 15px;
     .boton {
         flex-direction: row;
         justify-content: left;
+        margin-left: 10px;
     }
 
     .again {
-        font-size: 20px;
+        font-size: 18px;
         border-radius: 100%;
         border-color: #fff;
         border-width: 1px;
         align-items: center;
         justify-content: center;
         color: #fff;
-        padding: 7px 7px 7px 7px;
+        padding: 5px 5px 5px 5px;
     }
 
     .next {
         border-width: 1px;
-        font-size: 15px;
+        font-size: 14px;
         border-radius: 100%;
         border-color: #fff;
         align-items: center;
         justify-content: center;
         color: #fff;
-        padding: 7px 7px 7px 7px;
+        padding: 5px 5px 5px 5px;
     }
 }
